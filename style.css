@@ -1,21 +1,25 @@
 body {
-  background: #7f79cf;
+  background: #fefefe;
+  color: #333;
 }
 .mainHeader {
-  color: #6c5ce7;
-  font-size: 50px;
-}
-.sectionHeader {
-  color: #1460aa;
+  color: #697268;
   font-size: 40px;
 }
+.sectionHeader, .diaryHeader {
+  color: #5B85AA;
+  font-size: 30px;
+}
+
 .diaryHeader {
-  color: rgb(173, 80, 80);
+  font-size: 25px;
 }
 
 .subSectionHeader {
   color: rgb(54, 126, 150);
 }
-.content {
-  color: rgb(65, 65, 177);
+
+.link {
+  color: #87CBAC;
+  text-decoration: none;
 }
