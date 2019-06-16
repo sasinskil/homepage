@@ -5,10 +5,11 @@ body {
 .mainHeader {
   color: #697268;
   font-size: 40px;
+  margin-bottom: 38px;
 }
 .sectionHeader, .diaryHeader {
   color: #5B85AA;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .diaryHeader {
@@ -22,4 +23,78 @@ body {
 .link {
   color: #87CBAC;
   text-decoration: none;
+}
+
+.content {
+  padding: 16px;
+  /* overflow: hidden; */
+}
+
+.main {
+  width: 100%;
+  max-width: 700px;
+  margin: 40px auto;
+  padding-top: 50px;
+}
+
+.about {
+  width: 100%;
+  /* height: 100px; */
+  /* overflow: scroll; */
+  position: relative;
+}
+
+.mountain {
+  width: 100%;
+  max-width: 200px;
+  height: 200px;
+  display: block;
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+.box, .boxTest {
+  width: 100px;
+  height: 100px;
+  background: cornflowerblue;
+  padding: 10px;
+  border: 10px solid salmon;
+  /* margin: 10px; */
+  box-sizing: border-box;
+  position: absolute;
+  right: 50%;
+  top: 10px;
+}
+
+.box {
+  z-index: 2;
+  position: sticky;
+}
+
+.boxTest {
+  right: 40%;
+  top: 30px;
+  background: chocolate;
+}
+
+.diary {
+  clear: both;
+}
+
+.navigation {
+  position: fixed;
+  width: 100%;
+  padding: 16px;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  background: #ffffff;
+}
+
+.top {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  text-decoration: none;
+  color: #87CBAC;
 }

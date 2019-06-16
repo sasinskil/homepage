@@ -7,4 +7,4 @@ const age = 24;
 //console.log(name);
 //console.log(age);
 
-console.log(`Witaj ! Nazywam się ${name}, mam ${age} lata - zaglądasz tutaj, nawet nie wiesz jak się cieszę !`);
+console.log(`Witaj ! Nazywam się ${name}, mam ${age} lata - miło, że tutaj zaglądasz!`);
