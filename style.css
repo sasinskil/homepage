@@ -2,31 +2,31 @@ body {
   background: #fefefe;
   color: #333;
 }
-.mainHeader {
+.main__header {
   color: #697268;
   font-size: 40px;
   margin-bottom: 38px;
 }
-.sectionHeader, .diaryHeader {
+.about__header, .diary__header {
   color: #5B85AA;
-  font-size: 20px;
+  font-size: 30px;
 }
 
-.diaryHeader {
+.diary__header {
   font-size: 25px;
-  margin-top: 20px;
+  padding-top: 40px;
 }
 
-.subSectionHeader {
+.section__header {
   color: rgb(54, 126, 150);
 }
 
-.link {
+.navigation__link, .about__link, .section__link, .footer__link {
   color: #87CBAC;
   text-decoration: none;
 }
 
-.content {
+.about__paragraph, .section__paragraph {
   padding: 16px;
   /* overflow: hidden; */
 }
@@ -45,7 +45,7 @@ body {
   position: relative;
 }
 
-.mountain {
+.about__picture {
   width: 100%;
   max-width: 200px;
   height: 200px;
@@ -93,7 +93,14 @@ body {
   z-index: 10;
 }
 
-.top {
+.footer {
+  width: 100%;
+  max-width: 750px;
+  margin: 30px auto;
+  color: #046865;
+}
+
+.footer__link--top {
   position: fixed;
   bottom: 10px;
   right: 10px;
