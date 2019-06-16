@@ -14,6 +14,7 @@ body {
 
 .diaryHeader {
   font-size: 25px;
+  margin-top: 20px;
 }
 
 .subSectionHeader {
@@ -89,6 +90,7 @@ body {
   left: 0;
   box-sizing: border-box;
   background: #ffffff;
+  z-index: 10;
 }
 
 .top {
