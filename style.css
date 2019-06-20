@@ -4,7 +4,7 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.navigation {
+.main-header {
   position: fixed;
   width: 100%;
   padding: 16px;
@@ -13,6 +13,15 @@ body {
   box-sizing: border-box;
   background: #ffffff;
   z-index: 10;
+}
+
+.navigation__list {
+  list-style: none;
+  padding: 0;
+}
+
+.navigation__item {
+  display: inline;
 }
 
 .navigation__link, .about__link, .section__link, .footer__link {
