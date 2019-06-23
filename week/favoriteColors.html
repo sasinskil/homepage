@@ -6,24 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ulubione kolory</title>
+    <link href="../css/normalize.css" rel="stylesheet" type="text/css">
     <link href="../css/style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-    <header class="navigation">
-        <a class="navigation__link" href="../index.html">Strona główna</a>
+    <header class="main-header">
+        <nav class="navigation">
+            <ul class="navigation__list navigation__list--article">
+                <li class="navigation__item"><a class="navigation__link navigation__link--main-color"
+                        href="../index.html">Strona główna</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main class="main">
-        <article>
+        <article class="article">
             <header>
-                <h1 class="main__header">Ulubione kolory</h1>
+                <h1 class="article__header">Ulubione kolory</h1>
             </header>
-            <p class="section__paragraph">
+            <p class="article__paragraph">
                 niebieski niczym bezkresny ocean, obrazujący możliwości i daleką drogę w nieznane, ale damy rade!
             </p>
-            <footer class="main__footer">
-                <img src="../images/colors.jpg" alt="zdjecie mgiełki kolorów">
+            <footer class="article__footer">
+                <img class="article__picture" src="../images/colors.jpg" alt="zdjecie mgiełki kolorów">
                 Autorem artykułu jest niebieski kolor
             </footer>
         </article>

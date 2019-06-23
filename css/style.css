@@ -10,6 +10,7 @@ body {
   background: #fefefe;
   color: #333;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  min-height: 100vh;
 }
 
 .main-header {
@@ -29,6 +30,14 @@ body {
   margin: 0;
   display: flex;
   justify-content: center;
+}
+
+.navigation__list--article {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .navigation__item {
@@ -54,13 +63,11 @@ body {
 .main__header {
   color: #697268;
   font-size: 40px;
-  margin-bottom: 38px;
+  margin-bottom: 60px;
 }
 
 .about {
   width: 100%;
-  /* height: 100px; */
-  /* overflow: scroll; */
   position: relative;
 }
 
@@ -71,7 +78,6 @@ body {
 
 .about__paragraph, .section__paragraph {
   padding: 16px;
-  /* overflow: hidden; */
 }
 
 .about__picture {
@@ -80,7 +86,8 @@ body {
   height: 200px;
   display: block;
   float: left;
-  margin: 0 10px 10px 0;
+  margin: 0 20px 10px 0;
+  border-radius: 50%;
 }
 
 .diary {
@@ -96,7 +103,6 @@ body {
   padding: 16px;
   margin-bottom: 40px;
   background: rgba(138, 138, 106, 0.2);
-  /* border-left: 2px solid rgba(138, 138, 106, 0.8); */
   border-radius: 10px;
 }
 
@@ -106,10 +112,6 @@ body {
   margin-bottom: 16px;
 }
 
-.section__header--hobbies {
-  color: #5E8C61;
-}
-
 .section__paragraph {
   line-height: 32px;
   padding: 0;
@@ -117,28 +119,45 @@ body {
   margin-bottom: 10px;
 }
 
+.article__header {
+  color: lightslategrey;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.article__paragraph {
+  padding-left: 10px;
+  font-style: italic;
+  margin-bottom: 30px;
+  border-left: 2px solid lightslategrey;
+}
+
+.article__strong {
+  color: lightslategrey;
+}
+
+.article__picture {
+  border-top-left-radius: 40px;
+  padding-bottom: 10px;
+}
+
+.article__footer {
+  font-style: italic;
+  font-weight: bold;
+}
+
+
+
 .box, .boxTest {
   width: 100px;
   height: 100px;
   background: cornflowerblue;
   padding: 10px;
   border: 10px solid salmon;
-  /* margin: 10px; */
   box-sizing: border-box;
   position: absolute;
   right: 50%;
   top: 10px;
-}
-
-.box {
-  z-index: 2;
-  position: sticky;
-}
-
-.boxTest {
-  right: 40%;
-  top: 30px;
-  background: chocolate;
 }
 
 .footer {

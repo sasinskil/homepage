@@ -6,24 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Nagrywanie Video</title>
+    <link href="../css/normalize.css" rel="stylesheet" type="text/css">
     <link href="../css/style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-    <header class="navigation">
-        <a class="navigation__link" href="../index.html">Strona główna</a>
+    <header class="main-header">
+        <nav class="navigation">
+            <ul class="navigation__list navigation__list--article">
+                <li class="navigation__item"><a class="navigation__link navigation__link--main-color"
+                        href="../index.html">Strona główna</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main class="main">
-        <article>
+        <article class="article">
             <header>
-                <h1 class="main__header">Czy nagrywanie szkolenia to <em>prosta</em> sprawa?</h1>
+                <h1 class="article__header">Czy nagrywanie szkolenia to <em>prosta</em> sprawa?</h1>
             </header>
-            <p class="section__paragraph">
+            <p class="article__paragraph">
                 nic na ten temat nie wiem, ale jest pewna osoba, która ma sporo do powiedzenia
             </p>
-            <footer class="main__footer">
-                <img src="../images/video.jpg" alt="nagrywam video">
+            <footer class="article__footer">
+                <img class="article__picture" src="../images/video.jpg" alt="nagrywam video">
                 Autorem artykułu jest zdjęcie powyżej
             </footer>
         </article>

@@ -6,24 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Zajęcia</title>
+    <link href="../css/normalize.css" rel="stylesheet" type="text/css">
     <link href="../css/style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-    <header class="navigation">
-        <a class="navigation__link" href="../index.html">Strona główna</a>
+    <header class="main-header">
+        <nav class="navigation">
+            <ul class="navigation__list navigation__list--article">
+                <li class="navigation__item"><a class="navigation__link navigation__link--main-color" href="../index.html">Strona główna</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main class="main">
-        <article>
+        <article class="article">
             <header>
-                <h1 class="main__header">Zajęcia w tygodniu</h1>
+                <h1 class="article__header">Zajęcia w tygodniu</h1>
             </header>
-            <p class="section__paragraph">
+            <p class="article__paragraph">
                 Praca - > programowanie - > uczelnia i tak w kółko, oczywiście wszystko popartę chęcią ciągłego rozwoju
             </p>
-            <footer class="main__footer">
-                <img src="../images/activities.jpg" alt="zdjecie kalendarzyka">
+            <footer class="article__footer">
+                <img class="article__picture" src="../images/activities.jpg" alt="zdjecie kalendarzyka">
                 Autorem artykułu jest jakieś zdjęcie
             </footer>
         </article>
