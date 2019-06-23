@@ -26,10 +26,13 @@ body {
 .navigation__list {
   list-style: none;
   padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .navigation__item {
-  display: inline;
+  margin-left: 30px;
 }
 
 .navigation__link, .about__link, .section__link, .footer__link {
@@ -132,15 +135,20 @@ body {
 
 .footer {
   width: 100%;
-  max-width: 750px;
-  margin: 30px auto;
   color: #046865;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  background: lightsalmon;
 }
 
 .footer__link--top {
   position: fixed;
-  bottom: 10px;
+  bottom: 60px;
   right: 10px;
   text-decoration: none;
   color: #87CBAC;
+  border: 2px solid lightsalmon;
+  color: lightsalmon;
+  padding: 5px;
 }
