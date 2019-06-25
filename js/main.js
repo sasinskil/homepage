@@ -16,4 +16,4 @@ const welcome = (name, age) => {
     }
 }
 
-console.log(welcome('Łukasz',24));
+welcome('Łukasz',24);
