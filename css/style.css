@@ -102,8 +102,9 @@ body {
 .section {
   padding: 16px;
   margin-bottom: 40px;
-  background: rgba(138, 138, 106, 0.2);
+  background: rgba(138, 138, 106, 0.1);
   border-radius: 10px;
+  border-left: 3px solid #87CBAC;
 }
 
 .section__header {
