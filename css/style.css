@@ -204,3 +204,48 @@ body {
   grid-column-gap: 90px;
   grid-row-gap: 45px;
 }
+
+@media screen and (max-width: 840px) {
+
+  .main {
+    padding: 16px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 50px;
+  }
+
+  .footer__link--top {
+    bottom: 90px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+
+  .about__header {
+    text-align: center;
+  }
+
+  .about__picture {
+    float: none;
+    margin: 30px auto;
+  }
+
+  .diary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .article__picture {
+    padding: 10px;
+    max-width: 320px;
+    display: block;
+  }
+
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
