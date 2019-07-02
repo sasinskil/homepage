@@ -16,4 +16,4 @@ const welcome = (name, age) => {
     }
 }
 
-welcome('Łukasz',24);
+welcome(name,age);

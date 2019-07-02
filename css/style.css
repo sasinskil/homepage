@@ -45,8 +45,12 @@ body {
   margin-left: 30px;
 }
 
+.navigation__item--article {
+  margin: 0;
+}
+
 .navigation__link, .about__link, .section__link, .footer__link {
-  color: #87CBAC;
+  color: lightcoral;
   text-decoration: none;
 }
 
@@ -179,8 +183,8 @@ body {
   bottom: 60px;
   right: 10px;
   text-decoration: none;
-  color: #87CBAC;
-  border-right: 2px solid #87CBAC;
+  color: lightcoral;
+  border-right: 2px solid lightcoral;
   padding: 5px;
 }
 
