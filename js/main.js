@@ -3,8 +3,8 @@ const age = 24;
 
 const aboutHeader = document.querySelector('.about__header--js');
 
-console.log(aboutHeader);
-console.log(aboutHeader.innerHTML);
+//console.log(aboutHeader);
+//console.log(aboutHeader.innerHTML);
 
 aboutHeader.innerHTML = `Kim jest ${name} ?`;
 
