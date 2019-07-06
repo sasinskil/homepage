@@ -286,9 +286,29 @@ body {
 }
 
 @media screen and (max-width: 640px) {
+
+    .main__header {
+        text-align: center;
+        font-size: 30px;
+    }
+
     .about__header {
         text-align: center;
+        font-size: 25px;
     }
+
+    .diary__header {
+        font-size: 20px;
+    }
+
+    .section__header {
+        font-size: 18px;
+    }
+
+    .article__header {
+        font-size: 25px;
+    }
+
     .about__picture {
         float: none;
         margin: 30px auto;
