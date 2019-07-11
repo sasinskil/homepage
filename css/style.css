@@ -23,7 +23,6 @@ body {
     padding: 16px;
     top: 0;
     left: 0;
-    box-sizing: border-box;
     background: #87CBAC;
     z-index: 10;
     min-height: 45px;
@@ -53,20 +52,18 @@ body {
     margin: 0;
 }
 
-.navigation__link,
+.navigation__link {
+    color: #fff;
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+
 .about__link,
 .section__link,
 .footer__link {
     color: lightcoral;
     text-decoration: none;
-}
-
-.navigation__link {
-    padding-bottom: 5px;
-}
-
-.navigation__link--main-color {
-    color: #ffffff;
+    
 }
 
 .navigation__link:hover {
@@ -144,7 +141,7 @@ body {
     border-bottom-left-radius: 50%;
     border-top-right-radius: 50%;
     width: 20px;
-    height: 30px;
+    height: 20px;
     margin-right: 10px;
     background: lightcoral;
     display: inline-block;
@@ -219,7 +216,7 @@ body {
     background: #87CBAC;
 }
 
-.footer:not(.main-page--footer) {
+.footer:not(.footer--main-page) {
     width: 100%;
     color: #ffffff;
     padding: 16px;

@@ -20,7 +20,7 @@ welcome(name, age);
 
 
 const button = document.querySelector('.navigation__button--js');
-const navigationList = document.querySelector('.navigation__list');
+const navigationList = document.querySelector('.navigation__list--js');
 
 button.addEventListener('click', (e) => {
     navigationList.classList.toggle('navigation__list--visible');
